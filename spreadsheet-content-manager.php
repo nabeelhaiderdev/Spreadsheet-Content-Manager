@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Spreadsheet Content Manager
- * Plugin URI:        https://example.com/plugin-name
+ * Plugin URI:        https://example.com/spreadsheet-content-manager
  * Description:       Spreadsheet Content Manager is a WordPress plugin that allows you to manage content for your website directly from Google Sheets.
  * Version:           1.0.0
  * Requires at least: 5.2
@@ -35,19 +35,19 @@ define( 'PLUGIN_NAME_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-plugin-name-activator.php
+ * This action is documented in includes/class-spreadsheet-content-manager-activator.php
  */
 function activate_plugin_name() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-plugin-name-activator.php';
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-spreadsheet-content-manager-activator.php';
 	Plugin_Name_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-plugin-name-deactivator.php
+ * This action is documented in includes/class-spreadsheet-content-manager-deactivator.php
  */
 function deactivate_plugin_name() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-plugin-name-deactivator.php';
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-spreadsheet-content-manager-deactivator.php';
 	Plugin_Name_Deactivator::deactivate();
 }
 
@@ -58,7 +58,7 @@ register_deactivation_hook( __FILE__, 'deactivate_plugin_name' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-plugin-name.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-spreadsheet-content-manager.php';
 
 /**
  * Begins execution of the plugin.
