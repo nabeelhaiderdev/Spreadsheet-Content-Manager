@@ -1,0 +1,10 @@
+Please use this key as a tester key for Google API key in the Options Menu of CMS.
+
+- AIzaSyAuaseTXCNfhG36xLn9KLO_pgvsDXe-n30
+
+And also use these links to Google Sheets as a reference sheets to retrieve data and test the code as well.
+
+1) 1JHhiWPobfprCf09j_GIyrF-qXEqkqT_FVgCoTJjoMeA
+2) 1CHntevO9qSF2V3Pqh5ayTrIE1A94SN8_oZajoJ3UEQM
+
+There is also a WordPress XML exported page present there that can be imported into wordpress to get the starter kit to know how shortcodes will work for this plugin.
