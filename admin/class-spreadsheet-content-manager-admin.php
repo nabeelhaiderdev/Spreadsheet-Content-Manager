@@ -99,5 +99,9 @@ class Plugin_Name_Admin {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/spreadsheet-content-manager-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
+	
 
 }
+
+
+include 'spreahsheet-content-manager-shortcodes.php';
